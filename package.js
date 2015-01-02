@@ -1,8 +1,8 @@
 Package.describe({
-    name: 'kevohagan:sweetalert',
-    summary: "a beautiful replacement for javascript's alert() ",
-    version: '0.3.1',
-    git: 'https://github.com/kevohagan/meteor-sweetalert.git',
+    name: 'china:sweetalert',
+    summary: "Sweet Alert without Google web fonts.",
+    version: '0.3.2',
+    git: 'https://github.com/laosb/meteor-sweetalert.git',
 });
 
 Package.onUse(function(api) {
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     api.add_files([
         'sweetalert/lib/sweet-alert.html',
         'sweetalert/lib/sweet-alert.css',
-        'sweetalert/lib/sweet-alert.min.js'
+        'sweetalert/lib/sweet-alert.js'
     ], ['client']);
 
     if(api.export){
